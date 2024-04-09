@@ -1,12 +1,17 @@
 /* styles.css */
+@font-face {
+    font-family: 'ikiType';
+    src: url('../assets/fonts/ikifont.ttf') format('truetype'); /* Adjust the font format if necessary */
+}
+
 body, html {
     height: 100%;
     margin: 0;
+    font-family: 'ikiType';
 }
 
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* This ensures the image is centered vertically */
 }
